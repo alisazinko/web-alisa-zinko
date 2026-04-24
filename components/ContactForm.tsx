@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 
 // Obtén tu access key en https://web3forms.com (gratis, solo pon tu email)
 const WEB3FORMS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? ''
@@ -167,7 +168,7 @@ export default function ContactForm() {
           <div className="flex items-center justify-between pt-2 border-t border-gray-100">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-full bg-gray-200 overflow-hidden flex-shrink-0">
-                <img src="/alisa-photo.png" alt="Alisa Zinchenko" className="w-full h-full object-cover" />
+                <Image src="/alisa-color.png" alt="Alisa Zinchenko" width={32} height={32} className="w-full h-full object-cover object-top" />
               </div>
               <span className="text-xs text-gray-600">alisa@alisazinko.com</span>
             </div>

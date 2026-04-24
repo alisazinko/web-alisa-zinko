@@ -7,7 +7,19 @@ import ContactForm from '@/components/ContactForm'
 export const metadata: Metadata = {
   title: 'Contacto | Alisa Zinchenko Comunicación B2B',
   description:
-    'Ponte en contacto con Alisa Zinchenko para hablar sobre comunicación B2B para tu empresa industrial o despacho legal.',
+    'Ponte en contacto con Alisa Zinchenko para hablar sobre presencia digital B2B para tu empresa. Web profesional, LinkedIn corporativo y SEO para despachos e ingenierías en España.',
+  alternates: {
+    canonical: 'https://alisazinko.com/contacto',
+  },
+  openGraph: {
+    title: 'Contacto | Alisa Zinchenko Presencia Digital B2B',
+    description: 'Hablemos sobre tu presencia digital. Web, LinkedIn y SEO para empresas B2B en España.',
+    url: 'https://alisazinko.com/contacto',
+    siteName: 'Alisa Zinchenko',
+    locale: 'es_ES',
+    type: 'website',
+    images: [{ url: '/alisa-color.png', width: 1222, height: 1982, alt: 'Alisa Zinchenko' }],
+  },
 }
 
 export default function ContactoPage() {
