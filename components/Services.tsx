@@ -160,7 +160,7 @@ export default function Services() {
                   className={`w-full py-2.5 rounded-xl text-sm font-medium transition-colors flex items-center justify-center gap-1.5 ${
                     service.featured
                       ? 'bg-[#5B58D6] hover:bg-[#4a47c0] text-white'
-                      : 'border border-gray-200 text-gray-700 group-hover:bg-[#5B58D6] group-hover:border-[#5B58D6] group-hover:text-white'
+                      : 'border border-gray-400 text-gray-800 group-hover:bg-[#5B58D6] group-hover:border-[#5B58D6] group-hover:text-white'
                   }`}
                 >
                   Más detalles
