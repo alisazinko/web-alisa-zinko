@@ -5,9 +5,9 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-[calc(100vh-3.5rem)] mt-14 bg-[#FFFFFF] rounded-b-3xl relative overflow-hidden"
+      className="h-[calc(100vh-3.5rem)] mt-14 bg-[#FFFFFF] rounded-b-3xl overflow-hidden"
     >
-      <div className="max-w-6xl mx-auto px-6 py-16 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-6xl mx-auto px-6 h-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center py-12">
         {/* Left: text */}
         <div className="space-y-6">
           <h1 className="font-serif text-[clamp(3rem,5.5vw,4.75rem)] leading-[1.02] tracking-[-0.03em] text-[#5B58D6]">
@@ -40,30 +40,26 @@ export default function Hero() {
               </svg>
             </Link>
           </div>
-          {/* Decorative line */}
-          <div className="w-20 h-px bg-gray-300 mt-4" />
         </div>
 
-        {/* Right: images */}
-        <div className="hidden md:grid grid-cols-2 gap-3 h-[480px]">
-          {/* Portrait photo - placeholder, replace with your photo */}
+        {/* Right: images — fill full height of section */}
+        <div className="hidden md:grid grid-cols-2 gap-3 h-[min(72vh,640px)]">
           <div className="rounded-2xl overflow-hidden bg-gray-200 h-full">
             <Image
               src="/alisa-photo.png"
               alt="Alisa Zinchenko"
               width={400}
-              height={480}
-              className="w-full h-full object-cover"
+              height={640}
+              className="w-full h-full object-cover object-top"
               priority
             />
           </div>
-          {/* Abstract image */}
           <div className="rounded-2xl overflow-hidden bg-gray-100 h-full">
             <Image
               src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80"
-              alt="Comunicacion B2B"
+              alt="Presencia digital B2B"
               width={400}
-              height={480}
+              height={640}
               className="w-full h-full object-cover"
               priority
             />
