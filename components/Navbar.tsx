@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
         {/* Logo */}
         <Link href="/">
-          <Image src="/logo-light.png" alt="AlisaZinko" width={160} height={42} className="h-10 w-auto" priority />
+          <Image src="/logo-light.png" alt="AlisaZinko" width={180} height={48} className="h-12 w-auto" priority />
         </Link>
 
         {/* Right side */}

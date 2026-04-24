@@ -7,7 +7,7 @@ export default function Hero() {
       id="hero"
       className="h-[calc(100vh-3.5rem)] mt-14 bg-[#FFFFFF] rounded-b-3xl overflow-hidden"
     >
-      <div className="max-w-6xl mx-auto px-6 h-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center py-12">
+      <div className="max-w-6xl mx-auto px-6 h-full grid grid-cols-1 md:grid-cols-[42%_1fr] gap-10 items-center py-10">
         {/* Left: text */}
         <div className="space-y-6">
           <h1 className="font-serif text-[clamp(3rem,5.5vw,4.75rem)] leading-[1.02] tracking-[-0.03em] text-[#5B58D6]">
@@ -42,25 +42,29 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right: images — fill full height of section */}
-        <div className="hidden md:grid grid-cols-2 gap-3 h-[min(72vh,640px)]">
+        {/* Right: images */}
+        <div className="hidden md:grid grid-cols-[3fr_2fr] gap-3 h-[min(80vh,660px)]">
+          {/* Alisa portrait — larger column */}
           <div className="rounded-2xl overflow-hidden bg-gray-200 h-full">
             <Image
               src="/alisa-photo.png"
               alt="Alisa Zinchenko"
-              width={400}
-              height={640}
+              width={600}
+              height={800}
+              quality={95}
               className="w-full h-full object-cover object-top"
               priority
             />
           </div>
+          {/* Second photo */}
           <div className="rounded-2xl overflow-hidden bg-gray-100 h-full">
             <Image
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80"
+              src="/foto home.avif"
               alt="Presencia digital B2B"
               width={400}
-              height={640}
-              className="w-full h-full object-cover"
+              height={800}
+              quality={90}
+              className="w-full h-full object-cover object-center"
               priority
             />
           </div>
