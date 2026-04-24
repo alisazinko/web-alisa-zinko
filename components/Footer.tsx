@@ -15,7 +15,7 @@ export default function Footer() {
         </div>
 
         {/* Large name */}
-        <div className="overflow-hidden mb-8">
+        <div className="overflow-hidden mb-8 text-center">
           <p
             className="text-[clamp(3rem,10vw,7rem)] font-serif font-light leading-none tracking-tight text-gray-900 select-none"
           >
