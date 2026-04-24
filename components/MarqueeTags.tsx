@@ -1,21 +1,25 @@
 const row1 = [
-  { icon: '🔗', label: 'LinkedIn B2B' },
-  { icon: '👥', label: 'Captación de Leads' },
-  { icon: '🏷️', label: 'Marca' },
-  { icon: '🔗', label: 'LinkedIn B2B' },
-  { icon: '👥', label: 'Captación de Leads' },
-  { icon: '🏷️', label: 'Marca' },
+  { icon: '🌐', label: 'Web Profesional' },
+  { icon: '🎨', label: 'Identidad Visual' },
+  { icon: '💼', label: 'LinkedIn Corporativo' },
+  { icon: '📝', label: 'Contenido B2B' },
+  { icon: '🌐', label: 'Web Profesional' },
+  { icon: '🎨', label: 'Identidad Visual' },
+  { icon: '💼', label: 'LinkedIn Corporativo' },
+  { icon: '📝', label: 'Contenido B2B' },
 ]
 
 const row2 = [
+  { icon: '🔍', label: 'SEO Técnico' },
+  { icon: '✍️', label: 'Ghostwriting' },
   { icon: '🛡️', label: 'Autoridad Digital' },
-  { icon: '📖', label: 'Storytelling' },
-  { icon: '📊', label: 'Presentaciones' },
-  { icon: '🎯', label: 'Estrategia' },
+  { icon: '📈', label: 'Presencia Digital' },
+  { icon: '🏷️', label: 'Marca' },
+  { icon: '🔍', label: 'SEO Técnico' },
+  { icon: '✍️', label: 'Ghostwriting' },
   { icon: '🛡️', label: 'Autoridad Digital' },
-  { icon: '📖', label: 'Storytelling' },
-  { icon: '📊', label: 'Presentaciones' },
-  { icon: '🎯', label: 'Estrategia' },
+  { icon: '📈', label: 'Presencia Digital' },
+  { icon: '🏷️', label: 'Marca' },
 ]
 
 function Tag({ icon, label }: { icon: string; label: string }) {
