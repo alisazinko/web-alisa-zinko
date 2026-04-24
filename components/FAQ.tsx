@@ -62,9 +62,11 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
           )}
         </span>
       </button>
-      {open && (
-        <p className="pb-5 text-sm text-gray-600 leading-relaxed pr-10">{answer}</p>
-      )}
+      <div className={`grid transition-all duration-300 ease-in-out ${open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}>
+        <div className="overflow-hidden">
+          <p className="pb-5 text-sm text-gray-600 leading-relaxed pr-10">{answer}</p>
+        </div>
+      </div>
     </div>
   )
 }
