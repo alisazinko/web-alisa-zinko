@@ -7,8 +7,7 @@ const services = [
   {
     id: 'web-marca',
     badge: 'Proyecto único',
-    badgeColor: 'bg-gray-100 text-gray-600',
-    icon: '🌐',
+    badgeColor: 'text-gray-500',
     title: 'Web + Marca',
     subtitle: 'Tu presencia digital desde cero, entregada y lista',
     items: [
@@ -33,8 +32,7 @@ const services = [
   {
     id: 'presencia-digital',
     badge: 'Más contratado',
-    badgeColor: 'bg-[#E8E4FF] text-[#5B58D6]',
-    icon: '🔄',
+    badgeColor: 'text-[#5B58D6]',
     title: 'Presencia Digital',
     subtitle: 'Tu empresa con presencia activa, sin gestionarla tú',
     items: [
@@ -60,8 +58,7 @@ const services = [
   {
     id: 'linkedin-profesional',
     badge: 'Retainer mensual',
-    badgeColor: 'bg-[#FFF3E0] text-[#B45309]',
-    icon: '💼',
+    badgeColor: 'text-[#B45309]',
     title: 'LinkedIn Profesional',
     subtitle: 'Tu conocimiento publicado. Sin que escribas una sola línea',
     items: [
@@ -107,60 +104,71 @@ export default function Services() {
         </div>
 
         {/* 3-column cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-stretch">
           {services.map((service) => (
             <div
               key={service.id}
-              className={`bg-white rounded-2xl p-6 flex flex-col gap-5 ${
-                service.featured ? 'ring-2 ring-[#5B58D6]' : 'ring-1 ring-gray-100'
+              className={`bg-white rounded-2xl flex flex-col overflow-hidden ${
+                service.featured
+                  ? 'shadow-md ring-1 ring-[#5B58D6]/20'
+                  : 'shadow-sm ring-1 ring-black/5'
               }`}
             >
-              <div className="w-10 h-10 rounded-xl bg-gray-100 flex items-center justify-center text-xl">
-                {service.icon}
-              </div>
+              {/* Top accent bar for featured */}
+              {service.featured && (
+                <div className="h-0.5 w-full bg-[#5B58D6]" />
+              )}
 
-              <span className={`self-start text-xs font-medium px-2.5 py-1 rounded-full ${service.badgeColor}`}>
-                {service.badge}
-              </span>
+              <div className="p-7 flex flex-col gap-6 flex-1">
+                {/* Badge + title */}
+                <div>
+                  <p className={`text-[11px] font-semibold tracking-widest uppercase mb-3 ${service.badgeColor}`}>
+                    {service.badge}
+                  </p>
+                  <h3 className="font-serif text-[1.65rem] font-medium leading-tight mb-1.5">
+                    {service.title}
+                  </h3>
+                  <p className="text-sm text-gray-500 leading-snug">{service.subtitle}</p>
+                </div>
 
-              <div>
-                <h3 className="font-serif text-2xl font-medium mb-1">{service.title}</h3>
-                <p className="text-sm text-gray-500">{service.subtitle}</p>
-              </div>
+                {/* Divider */}
+                <div className="w-full h-px bg-gray-100" />
 
-              <hr className="border-gray-100" />
-
-              <div>
-                <p className="text-[10px] font-semibold tracking-widest text-gray-400 mb-3">INCLUYE</p>
-                <ul className="space-y-2">
+                {/* Items */}
+                <ul className="space-y-2.5 flex-1">
                   {service.items.map((item, i) => (
-                    <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
-                      <svg className="w-4 h-4 text-gray-700 mt-0.5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <li key={i} className="flex items-start gap-2.5 text-sm text-gray-700">
+                      <svg
+                        className="w-3.5 h-3.5 mt-0.5 flex-shrink-0 text-gray-400"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"
+                      >
                         <path d="M20 6L9 17l-5-5" />
                       </svg>
                       {item}
                     </li>
                   ))}
                 </ul>
+
+                {/* Note */}
+                <p className="text-[11px] text-gray-400 leading-relaxed italic">
+                  {service.note}
+                </p>
+
+                {/* CTA */}
+                <button
+                  onClick={() => setOpenModal(service.id)}
+                  className={`w-full py-2.5 rounded-xl text-sm font-medium transition-colors flex items-center justify-center gap-1.5 ${
+                    service.featured
+                      ? 'bg-[#5B58D6] hover:bg-[#4a47c0] text-white'
+                      : 'border border-gray-200 text-gray-700 hover:bg-gray-50'
+                  }`}
+                >
+                  Más detalles
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M7 17L17 7M17 7H7M17 7v10" />
+                  </svg>
+                </button>
               </div>
-
-              <p className="text-xs text-gray-400 leading-relaxed border-l-2 border-gray-100 pl-3">
-                {service.note}
-              </p>
-
-              <button
-                onClick={() => service.modal && setOpenModal(service.id)}
-                className={`mt-auto w-full flex items-center justify-center gap-1.5 border border-gray-200 rounded-xl py-2.5 text-sm font-medium transition-colors ${
-                  service.modal
-                    ? 'text-gray-800 hover:bg-gray-50 cursor-pointer'
-                    : 'text-gray-300 cursor-not-allowed'
-                }`}
-              >
-                Ver texto de venta
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M7 17L17 7M17 7H7M17 7v10" />
-                </svg>
-              </button>
             </div>
           ))}
         </div>
@@ -176,7 +184,6 @@ export default function Services() {
             className="bg-white rounded-2xl max-w-lg w-full p-8 shadow-xl relative"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Close */}
             <button
               onClick={() => setOpenModal(null)}
               className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full text-gray-400 hover:bg-gray-100 transition-colors"
