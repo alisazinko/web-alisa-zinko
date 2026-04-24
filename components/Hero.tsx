@@ -43,14 +43,13 @@ export default function Hero() {
         </div>
 
         {/* Right: portrait */}
-        <div className="hidden md:block aspect-square h-[min(74vh,620px)] rounded-2xl overflow-hidden bg-gray-200">
+        <div className="hidden md:block h-[min(80vh,640px)] rounded-2xl overflow-hidden bg-gray-100">
           <Image
-            src="/alisa-photo-clean.png"
+            src="/alisa-color.png"
             alt="Alisa Zinchenko"
-            width={800}
-            height={576}
+            width={1222}
+            height={1982}
             quality={100}
-            unoptimized
             className="w-full h-full object-cover object-top"
             priority
           />
