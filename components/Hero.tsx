@@ -42,32 +42,17 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right: images */}
-        <div className="hidden md:grid grid-cols-[3fr_2fr] gap-3 h-[min(80vh,660px)]">
-          {/* Alisa portrait — larger column */}
-          <div className="rounded-2xl overflow-hidden bg-gray-200 h-full">
-            <Image
-              src="/alisa-photo.png"
-              alt="Alisa Zinchenko"
-              width={600}
-              height={800}
-              quality={95}
-              className="w-full h-full object-cover object-top"
-              priority
-            />
-          </div>
-          {/* Second photo */}
-          <div className="rounded-2xl overflow-hidden bg-gray-100 h-full">
-            <Image
-              src="/foto home.avif"
-              alt="Presencia digital B2B"
-              width={400}
-              height={800}
-              quality={90}
-              className="w-full h-full object-cover object-center"
-              priority
-            />
-          </div>
+        {/* Right: portrait */}
+        <div className="hidden md:block aspect-square h-[min(72vh,620px)] rounded-2xl overflow-hidden bg-gray-200">
+          <Image
+            src="/alisa-photo.png"
+            alt="Alisa Zinchenko"
+            width={800}
+            height={800}
+            quality={100}
+            className="w-full h-full object-cover object-top"
+            priority
+          />
         </div>
       </div>
     </section>
