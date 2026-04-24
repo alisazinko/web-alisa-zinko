@@ -50,7 +50,8 @@ export default function Hero() {
             width={1222}
             height={1982}
             quality={100}
-            className="w-full h-full object-cover object-top"
+            className="w-full h-full object-cover"
+            style={{ objectPosition: 'center 18%' }}
             priority
           />
         </div>
