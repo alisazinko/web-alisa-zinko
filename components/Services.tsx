@@ -108,16 +108,16 @@ export default function Services() {
           {services.map((service) => (
             <div
               key={service.id}
-              className={`bg-white rounded-2xl flex flex-col overflow-hidden ${
+              className={`group bg-white rounded-2xl flex flex-col overflow-hidden transition-all duration-200 ${
                 service.featured
                   ? 'shadow-md ring-1 ring-[#5B58D6]/20'
-                  : 'shadow-sm ring-1 ring-black/5'
+                  : 'shadow-sm ring-1 ring-black/5 hover:shadow-md hover:ring-1 hover:ring-[#5B58D6]/20'
               }`}
             >
-              {/* Top accent bar for featured */}
-              {service.featured && (
-                <div className="h-0.5 w-full bg-[#5B58D6]" />
-              )}
+              {/* Top accent bar */}
+              <div className={`h-0.5 w-full transition-colors duration-200 ${
+                service.featured ? 'bg-[#5B58D6]' : 'bg-transparent group-hover:bg-[#5B58D6]'
+              }`} />
 
               <div className="p-7 flex flex-col gap-6 flex-1">
                 {/* Badge + title */}
@@ -160,7 +160,7 @@ export default function Services() {
                   className={`w-full py-2.5 rounded-xl text-sm font-medium transition-colors flex items-center justify-center gap-1.5 ${
                     service.featured
                       ? 'bg-[#5B58D6] hover:bg-[#4a47c0] text-white'
-                      : 'border border-gray-200 text-gray-700 hover:bg-gray-50'
+                      : 'border border-gray-200 text-gray-700 group-hover:bg-[#5B58D6] group-hover:border-[#5B58D6] group-hover:text-white'
                   }`}
                 >
                   Más detalles
