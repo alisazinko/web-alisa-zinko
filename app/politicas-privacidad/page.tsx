@@ -11,7 +11,7 @@ export default function PrivacidadPage() {
   return (
     <>
       <Navbar />
-      <main className="mt-14 min-h-screen bg-[#E8E8E3]">
+      <main className="mt-14 min-h-screen bg-[#ECEBE4]">
         <div className="max-w-3xl mx-auto px-6 py-20">
           <h1 className="font-serif text-4xl mb-8">Políticas de Privacidad</h1>
           <div className="prose prose-sm max-w-none text-gray-700 space-y-6">

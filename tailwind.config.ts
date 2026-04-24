@@ -15,8 +15,8 @@ const config: Config = {
           light: '#7b79e0',
         },
         bg: {
-          hero: '#F5EDE8',
-          section: '#E8E8E3',
+          hero: '#FFFFFF',
+          section: '#ECEBE4',
           card: '#FFFFFF',
         },
       },

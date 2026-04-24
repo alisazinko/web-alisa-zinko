@@ -91,7 +91,7 @@ export default function Services() {
   const activeService = services.find((s) => s.id === openModal)
 
   return (
-    <section id="servicios" className="bg-[#E8E8E3] py-20 md:py-28">
+    <section id="servicios" className="bg-[#ECEBE4] py-20 md:py-28">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-12">

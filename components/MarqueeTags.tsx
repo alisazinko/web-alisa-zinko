@@ -32,7 +32,7 @@ export default function MarqueeTags() {
   const row2Double = [...row2, ...row2]
 
   return (
-    <div className="bg-[#E8E8E3] py-8 overflow-hidden">
+    <div className="bg-[#ECEBE4] py-8 overflow-hidden">
       {/* Row 1 - left to right */}
       <div className="flex overflow-hidden mb-3">
         <div className="marquee-track">

@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-[calc(100vh-3.5rem)] mt-14 bg-[#F5EDE8] rounded-b-3xl relative overflow-hidden"
+      className="min-h-[calc(100vh-3.5rem)] mt-14 bg-[#FFFFFF] rounded-b-3xl relative overflow-hidden"
     >
       <div className="max-w-6xl mx-auto px-6 py-16 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left: text */}

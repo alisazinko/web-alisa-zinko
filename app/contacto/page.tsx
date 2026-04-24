@@ -15,7 +15,7 @@ export default function ContactoPage() {
     <>
       <Navbar />
       <main>
-        <section className="min-h-screen mt-14 bg-[#F5EDE8]">
+        <section className="min-h-screen mt-14 bg-[#FFFFFF]">
           <div className="max-w-6xl mx-auto px-6 py-16 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             {/* Left: info */}
             <div className="space-y-8 md:sticky md:top-28">

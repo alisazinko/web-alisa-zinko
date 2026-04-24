@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#E8E8E3] pt-12 pb-8">
+    <footer className="bg-[#ECEBE4] pt-12 pb-8">
       <div className="max-w-6xl mx-auto px-6">
         {/* Email */}
         <div className="border-t border-gray-300 pt-8 mb-6">
