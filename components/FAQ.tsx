@@ -21,7 +21,7 @@ const faqs = [
   {
     question: '¿Cuánto tiempo tarda en verse resultados con LinkedIn corporativo gestionado?',
     answer:
-      'Los primeros resultados visibles en alcance e interacción aparecen entre 4 y 8 semanas con publicación consistente. El posicionamiento como referente en tu sector —que alguien te contacte directamente por lo que ve en LinkedIn— suele darse entre los 3 y 6 meses. El SEO de la web tarda entre 3 y 6 meses en posicionar en Google. Por eso el plan Presencia Digital combina ambos canales desde el inicio.',
+      'Los primeros resultados visibles en alcance e interacción aparecen entre 4 y 8 semanas con publicación consistente. El posicionamiento como referente en tu sector -que alguien te contacte directamente por lo que ve en LinkedIn- suele darse entre los 3 y 6 meses. El SEO de la web tarda entre 3 y 6 meses en posicionar en Google. Por eso el plan Presencia Digital combina ambos canales desde el inicio.',
   },
   {
     question: '¿Qué diferencia hay entre el plan Presencia Digital y LinkedIn Profesional?',
@@ -31,12 +31,12 @@ const faqs = [
   {
     question: '¿Puedo externalizar mi comunicación digital sin perder mi voz o mi estilo?',
     answer:
-      'Sí. El proceso está diseñado exactamente para eso. Antes de escribir ninguna pieza, documento tu voz: cómo hablas, qué evitas decir, qué posiciones tienes sobre tu sector. En el caso del ghostwriting de LinkedIn, trabajo a partir de tus propias ideas y palabras. Varios clientes —abogados y directivos— llevan meses publicando sin que nadie haya notado que no escriben ellos mismos.',
+      'Sí. El proceso está diseñado exactamente para eso. Antes de escribir ninguna pieza, documento tu voz: cómo hablas, qué evitas decir, qué posiciones tienes sobre tu sector. En el caso del ghostwriting de LinkedIn, trabajo a partir de tus propias ideas y palabras. Varios clientes -abogados y directivos- llevan meses publicando sin que nadie haya notado que no escriben ellos mismos.',
   },
   {
     question: '¿Qué tipo de empresas y profesionales contratan estos servicios?',
     answer:
-      'Los perfiles más habituales son despachos de abogados de 3 a 30 personas, ingenierías y consultoras técnicas, y directivos —socios, CEOs, gerentes— de empresas B2B en sectores técnicos o regulados. El denominador común es que no tienen departamento de marketing interno, conocen bien su sector pero no tienen tiempo ni recursos para gestionar su presencia digital de forma profesional.',
+      'Los perfiles más habituales son despachos de abogados de 3 a 30 personas, ingenierías y consultoras técnicas, y directivos -socios, CEOs, gerentes- de empresas B2B en sectores técnicos o regulados. El denominador común es que no tienen departamento de marketing interno, conocen bien su sector pero no tienen tiempo ni recursos para gestionar su presencia digital de forma profesional.',
   },
 ]
 
