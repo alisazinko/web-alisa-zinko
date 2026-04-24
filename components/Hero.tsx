@@ -10,11 +10,11 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-6 py-16 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left: text */}
         <div className="space-y-6">
-          <h1 className="font-serif text-[clamp(2.8rem,5vw,4.4rem)] leading-[1.05] tracking-[-0.02em] text-[#5B58D6]">
+          <h1 className="font-serif text-[clamp(3rem,5.5vw,4.75rem)] leading-[1.02] tracking-[-0.03em] text-[#5B58D6]">
             Presencia digital para empresas B2B que no tienen tiempo de{' '}
             <em className="not-italic italic">gestionarla.</em>
           </h1>
-          <p className="text-base md:text-lg text-gray-700 leading-relaxed max-w-md">
+          <p className="text-[1.0625rem] text-gray-700 leading-[1.7] max-w-md">
             Trabajo con despachos de abogados, ingenierías y directivos que dominan su sector
             pero no aparecen online. Diseño la web con su identidad visual, gestiono su
             LinkedIn corporativo y me encargo del SEO para que sus clientes potenciales los
@@ -61,7 +61,7 @@ export default function Hero() {
           <div className="rounded-2xl overflow-hidden bg-gray-100 h-full">
             <Image
               src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80"
-              alt="Comunicación B2B"
+              alt="Comunicacion B2B"
               width={400}
               height={480}
               className="w-full h-full object-cover"

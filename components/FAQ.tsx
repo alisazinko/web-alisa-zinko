@@ -49,7 +49,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
         onClick={() => setOpen(!open)}
         className="w-full flex items-center justify-between py-5 text-left gap-4 hover:text-gray-600 transition-colors"
       >
-        <span className="text-sm md:text-base font-medium">{question}</span>
+        <span className="text-sm md:text-[1.0625rem] md:leading-[1.7] font-medium">{question}</span>
         <span className="flex-shrink-0 w-6 h-6 rounded-full border border-gray-300 flex items-center justify-center text-gray-500">
           {open ? (
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -64,7 +64,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
       </button>
       <div className={`grid transition-all duration-300 ease-in-out ${open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}>
         <div className="overflow-hidden">
-          <p className="pb-5 text-sm text-gray-600 leading-relaxed pr-10">{answer}</p>
+          <p className="pb-5 text-sm text-gray-600 leading-[1.6] pr-10">{answer}</p>
         </div>
       </div>
     </div>
@@ -73,20 +73,20 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
 
 export default function FAQ() {
   return (
-    <section className="bg-[#ECEBE4] py-20 md:py-28">
+    <section className="bg-[#ECEBE4] py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         {/* Left: heading + quote */}
         <div className="md:sticky md:top-24 space-y-8">
-          <h2 className="font-serif text-[clamp(1.8rem,3.5vw,2.75rem)] leading-tight">
+          <h2 className="font-serif text-[clamp(1.9rem,3.5vw,2.75rem)] leading-[1.1] tracking-[-0.02em]">
             Preguntas frecuentes sobre presencia digital B2B
           </h2>
-          <p className="text-sm text-gray-500 italic leading-relaxed">
+          <p className="text-sm text-gray-500 italic leading-[1.6]">
             Respuestas directas sobre web profesional, LinkedIn corporativo, ghostwriting para
             directivos y presencia digital para despachos, ingenierías y empresas técnicas en
             España.
           </p>
           <blockquote className="border-l-2 border-[#5B58D6] pl-4">
-            <p className="text-sm text-gray-700 italic leading-relaxed mb-2">
+            <p className="text-sm text-gray-700 italic leading-[1.6] mb-2">
               "Mi misión es que el conocimiento técnico de tu empresa se convierta en autoridad
               visible y en clientes."
             </p>

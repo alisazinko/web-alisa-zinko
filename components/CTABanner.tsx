@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 export default function CTABanner() {
   return (
-    <section className="bg-[#ECEBE4] px-6 py-8">
+    <section className="bg-[#ECEBE4] px-6 py-10 md:py-14">
       <div className="max-w-6xl mx-auto">
         <div className="bg-white rounded-2xl px-8 py-12 text-center">
-          <h2 className="font-serif text-[clamp(1.6rem,3.5vw,2.4rem)] mb-8">
+          <h2 className="font-serif text-[clamp(1.9rem,3.5vw,2.75rem)] leading-[1.1] tracking-[-0.02em] mb-8">
             Tu empresa merece aparecer online antes que la competencia.
           </h2>
           <div className="flex items-center justify-center gap-4 flex-wrap">

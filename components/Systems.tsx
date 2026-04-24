@@ -25,14 +25,14 @@ const steps = [
 
 export default function Systems() {
   return (
-    <section id="sistemas" className="bg-[#ECEBE4] py-20 md:py-28">
+    <section id="sistemas" className="bg-[#ECEBE4] py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         {/* Left: text */}
         <div className="space-y-6">
-          <h2 className="font-serif text-[clamp(2rem,4vw,2.75rem)] leading-tight">
+          <h2 className="font-serif text-[clamp(1.9rem,3.5vw,2.75rem)] leading-[1.1] tracking-[-0.02em]">
             Posicionamiento digital para empresas B2B, sin departamento de marketing.
           </h2>
-          <p className="text-gray-600 leading-relaxed">
+          <p className="text-[1.0625rem] text-gray-600 leading-[1.7]">
             Soy especialista independiente en presencia digital para despachos de abogados,
             ingenierías y empresas técnicas. Trabajo con directivos y CEOs que no tienen equipo
             de marketing interno: diseño la web con identidad visual, gestiono la presencia
@@ -68,8 +68,8 @@ export default function Systems() {
             <div key={step.number} className="bg-white rounded-2xl px-6 py-8 text-center">
               <p className="font-serif text-5xl font-light text-gray-800 mb-1">{step.number}</p>
               <div className="w-12 h-px bg-gray-200 mx-auto mb-4" />
-              <h3 className="font-serif text-xl font-medium mb-2">{step.title}</h3>
-              <p className="text-sm text-gray-600 leading-relaxed max-w-sm mx-auto">
+              <h3 className="font-serif text-[1.5rem] leading-[1.15] font-medium mb-2">{step.title}</h3>
+              <p className="text-sm text-gray-600 leading-[1.6] max-w-sm mx-auto">
                 {step.description}
               </p>
             </div>

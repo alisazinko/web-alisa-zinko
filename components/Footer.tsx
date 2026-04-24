@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="border-t border-gray-300 pt-8 mb-6">
           <a
             href="mailto:alisa@alisazinko.com"
-            className="text-sm text-gray-600 hover:text-gray-900 transition-colors underline underline-offset-2"
+            className="text-sm text-gray-600 hover:text-gray-900 transition-colors underline underline-offset-2 leading-[1.6]"
           >
             alisa@alisazinko.com
           </a>
@@ -25,8 +25,8 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <p className="text-xs text-gray-500">
-            Comunicación B2B para industria y legal · LinkedIn · Contenido · Ferias · Leads
+          <p className="text-[0.6875rem] tracking-[0.1em] text-gray-500 uppercase">
+            Comunicación B2B para industria y legal - LinkedIn - Contenido - Ferias - Leads
           </p>
           <nav className="flex items-center gap-1 flex-wrap">
             <Link href="/#hero" className="px-3 py-1.5 text-xs text-gray-600 hover:text-gray-900 border border-gray-300 rounded-full hover:border-gray-500 transition-all">
@@ -47,7 +47,7 @@ export default function Footer() {
           </nav>
         </div>
 
-        <p className="mt-6 text-xs text-gray-400">© 2026 AlisaZinchenko · All Rights Reserved</p>
+        <p className="mt-6 text-xs text-gray-400">© 2026 AlisaZinchenko - All Rights Reserved</p>
       </div>
     </footer>
   )

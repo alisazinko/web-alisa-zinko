@@ -88,14 +88,14 @@ export default function Services() {
   const activeService = services.find((s) => s.id === openModal)
 
   return (
-    <section id="servicios" className="bg-[#ECEBE4] py-20 md:py-28">
+    <section id="servicios" className="bg-[#ECEBE4] py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="font-serif text-[clamp(2rem,4vw,2.75rem)] leading-tight mb-4">
+          <h2 className="font-serif text-[clamp(1.9rem,3.5vw,2.75rem)] leading-[1.1] tracking-[-0.02em] mb-4">
             Lo que hago por tu empresa
           </h2>
-          <p className="text-gray-600 max-w-xl mx-auto leading-relaxed">
+          <p className="text-[1.0625rem] text-gray-600 max-w-xl mx-auto leading-[1.7]">
             Tres servicios de presencia digital para empresas B2B en España: web profesional con
             identidad visual desde cero, retainer de presencia digital completa con SEO y LinkedIn
             corporativo, y ghostwriting de LinkedIn para directivos y profesionales que quieren
@@ -122,13 +122,13 @@ export default function Services() {
               <div className="p-7 flex flex-col gap-6 flex-1">
                 {/* Badge + title */}
                 <div>
-                  <p className={`text-[11px] font-semibold tracking-widest uppercase mb-3 ${service.badgeColor}`}>
+                  <p className={`text-[0.6875rem] font-semibold tracking-[0.1em] uppercase mb-3 ${service.badgeColor}`}>
                     {service.badge}
                   </p>
-                  <h3 className="font-serif text-[1.65rem] font-medium leading-tight mb-1.5">
+                  <h3 className="font-serif text-[1.5rem] font-medium leading-[1.15] mb-1.5">
                     {service.title}
                   </h3>
-                  <p className="text-sm text-gray-500 leading-snug">{service.subtitle}</p>
+                  <p className="text-sm text-gray-500 leading-[1.6]">{service.subtitle}</p>
                 </div>
 
                 {/* Divider */}
@@ -137,7 +137,7 @@ export default function Services() {
                 {/* Items */}
                 <ul className="space-y-2.5 flex-1">
                   {service.items.map((item, i) => (
-                    <li key={i} className="flex items-start gap-2.5 text-sm text-gray-700">
+                    <li key={i} className="flex items-start gap-2.5 text-sm text-gray-700 leading-[1.6]">
                       <svg
                         className="w-3.5 h-3.5 mt-0.5 flex-shrink-0 text-gray-400"
                         viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"
@@ -150,7 +150,7 @@ export default function Services() {
                 </ul>
 
                 {/* Note */}
-                <p className="text-[11px] text-gray-400 leading-relaxed italic">
+                <p className="text-[0.6875rem] text-gray-400 leading-[1.6] italic">
                   {service.note}
                 </p>
 
@@ -193,12 +193,12 @@ export default function Services() {
               </svg>
             </button>
 
-            <h2 className="font-serif text-3xl font-medium mb-2">{activeService.modal.title}</h2>
-            <p className="text-sm text-gray-500 mb-6">{activeService.modal.subtitle}</p>
+            <h2 className="font-serif text-[1.5rem] leading-[1.15] font-medium mb-2">{activeService.modal.title}</h2>
+            <p className="text-sm text-gray-500 leading-[1.6] mb-6">{activeService.modal.subtitle}</p>
 
             <div className="space-y-4 mb-8">
               {activeService.modal.body.map((paragraph, i) => (
-                <p key={i} className="text-gray-700 leading-relaxed text-sm">
+                <p key={i} className="text-[1.0625rem] text-gray-700 leading-[1.7]">
                   {paragraph}
                 </p>
               ))}
