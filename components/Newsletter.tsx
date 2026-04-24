@@ -3,11 +3,12 @@ export default function Newsletter() {
     <section className="bg-[#ECEBE4] py-20 md:py-28">
       <div className="max-w-3xl mx-auto px-6 text-center space-y-6">
         <h2 className="font-serif italic text-[clamp(1.8rem,4vw,3rem)] leading-tight text-[#5B58D6]">
-          Comunicación, IA y el futuro de la visibilidad digital.
+          LinkedIn y presencia digital B2B: lo que funciona de verdad.
         </h2>
         <p className="text-gray-600 leading-relaxed max-w-lg mx-auto">
-          Una newsletter para profesionales que quieren anticiparse. Tendencias, estrategias,
-          optimización y lo que está cambiando en comunicación B2B.
+          Una newsletter quincenal para directivos, abogados e ingenieros que quieren construir
+          autoridad online sin perder el tiempo. Estrategias concretas, casos reales y lo que
+          está cambiando en posicionamiento digital para empresas B2B en España.
         </p>
         <a
           href="https://substack.com/@alisazinko"

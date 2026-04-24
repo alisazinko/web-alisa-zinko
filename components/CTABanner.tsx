@@ -6,7 +6,7 @@ export default function CTABanner() {
       <div className="max-w-6xl mx-auto">
         <div className="bg-white rounded-2xl px-8 py-12 text-center">
           <h2 className="font-serif text-[clamp(1.6rem,3.5vw,2.4rem)] mb-8">
-            ¿Hablamos de tu presencia digital?
+            Tu empresa merece aparecer online antes que la competencia.
           </h2>
           <div className="flex items-center justify-center gap-4 flex-wrap">
             <Link

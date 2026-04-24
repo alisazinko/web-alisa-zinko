@@ -4,22 +4,22 @@ const steps = [
   {
     number: '1',
     title: 'Auditoría',
-    description: 'Analizamos tu situación actual y definimos una hoja de ruta clara con objetivos concretos.',
+    description: 'Reviso tu presencia digital actual: web, LinkedIn y posicionamiento en buscadores. Identifico los huecos y defino qué tiene más impacto para tu sector.',
   },
   {
     number: '2',
     title: 'Arquitectura',
-    description: 'Diseñamos el sistema de comunicación adaptado a tu sector, tu voz y tus objetivos de negocio.',
+    description: 'Diseño la estructura: identidad visual, mensajes clave, arquitectura web y plan de contenidos para LinkedIn. Todo adaptado a despachos, ingenierías o perfil directivo.',
   },
   {
     number: '3',
     title: 'Despliegue',
-    description: 'Ejecutamos con acompañamiento continuo: contenido, canales y captación en marcha.',
+    description: 'Lanzo la web, activo el LinkedIn corporativo o profesional y arranco la publicación semanal. En 4 a 6 semanas tienes presencia digital operativa y visible.',
   },
   {
     number: '4',
     title: 'Optimización',
-    description: 'Monitorizamos resultados reales y ajustamos para que el sistema mejore con el tiempo.',
+    description: 'Cada mes reviso métricas reales: tráfico, alcance en LinkedIn y contactos generados. Ajusto el contenido y la estrategia para que el posicionamiento mejore con el tiempo.',
   },
 ]
 
@@ -30,14 +30,15 @@ export default function Systems() {
         {/* Left: text */}
         <div className="space-y-6">
           <h2 className="font-serif text-[clamp(2rem,4vw,2.75rem)] leading-tight">
-            Sistemas que escalan tu autoridad, no solo tu contenido.
+            Posicionamiento digital para empresas B2B, sin departamento de marketing.
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            Llevo más de 10 años en operaciones, gestión y comunicación corporativa en sectores
-            técnicos e industriales. Hoy trabajo como especialista independiente ayudando a
-            empresas B2B a construir presencia real, no ruido. Mi especialidad es que tu
-            conocimiento técnico trabaje para ti: posicionándote como referente en tu industria
-            mientras tú te dedicas a lo que sabes hacer.
+            Soy especialista independiente en presencia digital para despachos de abogados,
+            ingenierías y empresas técnicas. Trabajo con directivos y CEOs que no tienen equipo
+            de marketing interno: diseño la web con identidad visual, gestiono la presencia
+            digital completa mes a mes o me encargo del LinkedIn profesional del directivo.
+            El objetivo siempre es el mismo: que tus clientes potenciales te encuentren, te
+            entiendan y confíen en ti antes de llamarte.
           </p>
           <div className="flex items-center gap-4 flex-wrap">
             <Link

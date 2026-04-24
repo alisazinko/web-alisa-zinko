@@ -11,13 +11,14 @@ export default function Hero() {
         {/* Left: text */}
         <div className="space-y-6">
           <h1 className="font-serif text-[clamp(2.8rem,5vw,4.4rem)] leading-[1.05] tracking-[-0.02em] text-[#5B58D6]">
-            Comunicación B2B que convierte conocimiento técnico en{' '}
-            <em className="not-italic italic">autoridad visible.</em>
+            Presencia digital para empresas B2B que no tienen tiempo de{' '}
+            <em className="not-italic italic">gestionarla.</em>
           </h1>
           <p className="text-base md:text-lg text-gray-700 leading-relaxed max-w-md">
-            Trabajo con empresas industriales y despachos legales que saben hacer muy bien su
-            trabajo pero no saben comunicarlo. Me encargo de que su expertise se vea, se
-            encuentre y genere negocio.
+            Trabajo con despachos de abogados, ingenierías y directivos que dominan su sector
+            pero no aparecen online. Diseño la web con su identidad visual, gestiono su
+            LinkedIn corporativo y me encargo del SEO para que sus clientes potenciales los
+            encuentren antes que a la competencia.
           </p>
           <div className="flex items-center gap-4 pt-2">
             <Link

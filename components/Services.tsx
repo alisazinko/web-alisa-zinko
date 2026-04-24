@@ -99,8 +99,10 @@ export default function Services() {
             Lo que hago por tu empresa
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto leading-relaxed">
-            Diseño sistemas de comunicación para empresas B2B. LinkedIn corporativo, web, SEO y
-            contenido de autoridad: todo conectado, con tu voz y sin robarte tiempo.
+            Tres servicios de presencia digital para empresas B2B en España: web profesional con
+            identidad visual desde cero, retainer de presencia digital completa con SEO y LinkedIn
+            corporativo, y ghostwriting de LinkedIn para directivos y profesionales que quieren
+            publicar sin escribir.
           </p>
         </div>
 

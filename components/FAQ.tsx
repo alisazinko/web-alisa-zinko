@@ -4,39 +4,39 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    question: '¿Necesita una empresa industrial presencia en LinkedIn?',
+    question: '¿Para qué sirve tener presencia digital si ya consigo clientes por recomendación?',
     answer:
-      'Sí. LinkedIn es el canal B2B con mayor retorno para empresas industriales y despachos legales en España. Las empresas del sector técnico que publican contenido consistente generan entre 3 y 5 veces más contactos cualificados que las que no lo hacen. El problema es que muy pocas lo hacen bien, lo que significa una ventaja inmediata para quien empieza.',
+      'La recomendación es eficaz, pero tiene un techo. Una presencia digital bien construida amplía ese radio: cuando alguien recibe tu nombre por referencia, lo primero que hace es buscarte en Google y en LinkedIn. Si no te encuentran, o lo que encuentran no transmite confianza, la oportunidad se pierde. Una web profesional y un LinkedIn activo convierten la recomendación en cierre.',
   },
   {
-    question: '¿Qué es la comunicación B2B para empresas industriales?',
+    question: '¿Qué incluye el servicio de web profesional con identidad visual para empresas?',
     answer:
-      'La comunicación B2B industrial es el conjunto de acciones —LinkedIn, SEO, ferias, email marketing— que permiten a una empresa técnica o legal transmitir su expertise, ganar visibilidad en su sector y atraer clientes sin depender solo del boca a boca. Incluye contenido, posicionamiento de marca y sistemas de captación de leads.',
+      'El servicio Web + Marca incluye logo e identidad visual, web de hasta 5 páginas, tono de comunicación y mensajes clave, y dominio configurado y entregado. Es un proyecto único, sin retainer. El resultado es una presencia digital operativa en 4 a 6 semanas, lista para que tus clientes te encuentren y entiendan en 10 segundos qué haces.',
   },
   {
-    question: '¿Cuánto tarda en verse resultados con una estrategia de contenido B2B?',
+    question: '¿Cómo funciona el ghostwriting de LinkedIn para directivos y profesionales?',
     answer:
-      'Los primeros resultados visibles en LinkedIn aparecen entre 4 y 8 semanas con publicación consistente. El SEO tarda entre 3 y 6 meses en posicionar. Por eso trabajo con sistemas combinados: LinkedIn genera visibilidad rápida mientras el SEO construye autoridad a largo plazo.',
+      'Empezamos con una llamada de 30 minutos al mes para extraer tus ideas, experiencias o puntos de vista. A partir de ahí escribo los posts con tu voz y tu criterio. Tú los validas con un mensaje de voz o un comentario rápido, y yo publico. El resultado son 2 a 3 posts semanales en tu perfil sin que hayas escrito una sola línea. El primer mes incluye optimización completa del perfil.',
   },
   {
-    question: '¿Qué incluye un servicio de comunicación para despachos legales?',
+    question: '¿Cuánto tiempo tarda en verse resultados con LinkedIn corporativo gestionado?',
     answer:
-      'Un servicio de comunicación para despachos legales incluye: gestión de LinkedIn corporativo, redacción de artículos SEO sobre materias legales, newsletters para clientes y contactos. Todo adaptado al lenguaje técnico-legal y a las restricciones deontológicas de la abogacía.',
+      'Los primeros resultados visibles en alcance e interacción aparecen entre 4 y 8 semanas con publicación consistente. El posicionamiento como referente en tu sector —que alguien te contacte directamente por lo que ve en LinkedIn— suele darse entre los 3 y 6 meses. El SEO de la web tarda entre 3 y 6 meses en posicionar en Google. Por eso el plan Presencia Digital combina ambos canales desde el inicio.',
   },
   {
-    question: '¿Puedo externalizar la comunicación de mi empresa industrial?',
+    question: '¿Qué diferencia hay entre el plan Presencia Digital y LinkedIn Profesional?',
     answer:
-      'Sí. Externalizar la comunicación B2B es la opción más eficiente para empresas industriales medianas que no tienen departamento de marketing interno. Un especialista externo gestiona LinkedIn, contenido SEO y captación de leads manteniendo la voz técnica de la empresa sin coste fijo de empleado.',
+      'El plan Presencia Digital es un retainer mensual completo: web mantenida, SEO técnico, artículo de blog mensual, LinkedIn corporativo de la empresa y llamada mensual de dirección. Va dirigido a empresas de 5 a 50 personas sin departamento de marketing. LinkedIn Profesional es un retainer enfocado exclusivamente en el perfil personal del directivo: ghostwriting de posts, optimización de perfil y, opcionalmente, coordinación de la página de empresa. Van dirigidos a abogados, ingenieros, CEOs y directivos que quieren visibilidad personal en su sector.',
   },
   {
-    question: '¿Qué diferencia a un especialista en comunicación B2B de una agencia de marketing general?',
+    question: '¿Puedo externalizar mi comunicación digital sin perder mi voz o mi estilo?',
     answer:
-      'Un especialista en comunicación B2B industrial conoce el lenguaje técnico, los ciclos de venta largos y las dinámicas de compra de estos sectores. Una agencia generalista aplica las mismas tácticas de consumo a un contexto completamente diferente. El resultado es contenido que suena genérico y no conecta con el perfil de cliente industrial o legal.',
+      'Sí. El proceso está diseñado exactamente para eso. Antes de escribir ninguna pieza, documento tu voz: cómo hablas, qué evitas decir, qué posiciones tienes sobre tu sector. En el caso del ghostwriting de LinkedIn, trabajo a partir de tus propias ideas y palabras. Varios clientes —abogados y directivos— llevan meses publicando sin que nadie haya notado que no escriben ellos mismos.',
   },
   {
-    question: '¿Por qué contratar un servicio profesional de diseño de presentaciones para empresas?',
+    question: '¿Qué tipo de empresas y profesionales contratan estos servicios?',
     answer:
-      'Contratar un servicio profesional de diseño de presentaciones es la forma más efectiva de transformar datos complejos en historias visuales que venden. Me especializo en crear presentaciones de impacto que combinan estrategia de comunicación y diseño visual avanzado. Obtienes: autoridad de marca, claridad estratégica y ahorro de tiempo.',
+      'Los perfiles más habituales son despachos de abogados de 3 a 30 personas, ingenierías y consultoras técnicas, y directivos —socios, CEOs, gerentes— de empresas B2B en sectores técnicos o regulados. El denominador común es que no tienen departamento de marketing interno, conocen bien su sector pero no tienen tiempo ni recursos para gestionar su presencia digital de forma profesional.',
   },
 ]
 
@@ -78,11 +78,12 @@ export default function FAQ() {
         {/* Left: heading + quote */}
         <div className="md:sticky md:top-24 space-y-8">
           <h2 className="font-serif text-[clamp(1.8rem,3.5vw,2.75rem)] leading-tight">
-            Preguntas frecuentes sobre comunicación B2B para industria y legal
+            Preguntas frecuentes sobre presencia digital B2B
           </h2>
           <p className="text-sm text-gray-500 italic leading-relaxed">
-            Respuestas directas sobre comunicación B2B, contenido para LinkedIn, SEO industrial y
-            captación de leads para empresas técnicas y despachos legales.
+            Respuestas directas sobre web profesional, LinkedIn corporativo, ghostwriting para
+            directivos y presencia digital para despachos, ingenierías y empresas técnicas en
+            España.
           </p>
           <blockquote className="border-l-2 border-[#5B58D6] pl-4">
             <p className="text-sm text-gray-700 italic leading-relaxed mb-2">
