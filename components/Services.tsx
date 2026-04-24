@@ -32,7 +32,7 @@ const services = [
   {
     id: 'presencia-digital',
     badge: 'Más contratado',
-    badgeColor: 'text-[#5B58D6]',
+    badgeColor: 'text-gray-500',
     title: 'Presencia Digital',
     subtitle: 'Tu empresa con presencia activa, sin gestionarla tú',
     items: [
@@ -43,7 +43,7 @@ const services = [
       '1 llamada mensual de dirección',
     ],
     note: 'B2B de 5-50 personas sin departamento de marketing. Perfil: despachos, ingenierías, empresas técnicas.',
-    featured: true,
+    featured: false,
     modal: {
       title: 'Presencia Digital',
       subtitle: 'Tu empresa activa online. Sin que tengas que gestionarlo.',
@@ -58,7 +58,7 @@ const services = [
   {
     id: 'linkedin-profesional',
     badge: 'Retainer mensual',
-    badgeColor: 'text-[#B45309]',
+    badgeColor: 'text-gray-500',
     title: 'LinkedIn Profesional',
     subtitle: 'Tu conocimiento publicado. Sin que escribas una sola línea',
     items: [
