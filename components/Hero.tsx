@@ -49,11 +49,11 @@ export default function Hero() {
           {/* Portrait photo - placeholder, replace with your photo */}
           <div className="rounded-2xl overflow-hidden bg-gray-200 h-full">
             <Image
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
+              src="/alisa-photo.png"
               alt="Alisa Zinchenko"
               width={400}
               height={480}
-              className="w-full h-full object-cover grayscale"
+              className="w-full h-full object-cover"
               priority
             />
           </div>

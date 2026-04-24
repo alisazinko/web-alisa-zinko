@@ -167,7 +167,7 @@ export default function ContactForm() {
           <div className="flex items-center justify-between pt-2 border-t border-gray-100">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-full bg-gray-200 overflow-hidden flex-shrink-0">
-                <div className="w-full h-full bg-gradient-to-br from-gray-300 to-gray-400" />
+                <img src="/alisa-photo.png" alt="Alisa Zinchenko" className="w-full h-full object-cover" />
               </div>
               <span className="text-xs text-gray-600">alisa@alisazinko.com</span>
             </div>

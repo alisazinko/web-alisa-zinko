@@ -2,6 +2,10 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
   title: 'Alisa Zinchenko | Web, Marca y LinkedIn Corporativo para Empresas B2B',
   description: 'Presencia digital B2B para despachos, ingenierías y empresas técnicas en España. Web profesional con identidad visual, SEO y LinkedIn corporativo gestionado.',
   openGraph: {

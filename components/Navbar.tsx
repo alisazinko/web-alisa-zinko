@@ -1,15 +1,15 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-0.5 font-semibold text-lg tracking-tight">
-          <span>AlisaZink</span>
-          <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#5B58D6] mb-0.5" />
+        <Link href="/">
+          <Image src="/logo-light.png" alt="AlisaZinko" width={140} height={36} className="h-8 w-auto" priority />
         </Link>
 
         {/* Right side */}
