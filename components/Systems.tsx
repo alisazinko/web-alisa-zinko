@@ -52,7 +52,7 @@ export default function Systems() {
             </Link>
             <Link
               href="/#servicios"
-              className="inline-flex items-center gap-2 text-sm text-gray-700 hover:text-gray-900 font-medium transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-gray-900 hover:text-[#5B58D6] font-medium transition-colors"
             >
               Mis Servicios
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
