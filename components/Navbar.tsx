@@ -7,9 +7,8 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
-        {/* Logo */}
-        <Link href="/">
-          <Image src="/logo-light.png" alt="AlisaZinko" width={180} height={48} className="h-12 w-auto" priority />
+        <Link href="/" className="flex items-center">
+          <Image src="/logo-transparent.png" alt="AlisaZinko" width={160} height={50} className="h-10 w-auto" priority />
         </Link>
 
         {/* Right side */}

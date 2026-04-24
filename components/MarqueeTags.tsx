@@ -1,20 +1,11 @@
-const row1 = [
-  { icon: '🌐', label: 'Web Profesional' },
-  { icon: '🎨', label: 'Identidad Visual' },
-  { icon: '💼', label: 'LinkedIn Corporativo' },
-  { icon: '📝', label: 'Contenido B2B' },
+const baseRow1 = [
   { icon: '🌐', label: 'Web Profesional' },
   { icon: '🎨', label: 'Identidad Visual' },
   { icon: '💼', label: 'LinkedIn Corporativo' },
   { icon: '📝', label: 'Contenido B2B' },
 ]
 
-const row2 = [
-  { icon: '🔍', label: 'SEO Técnico' },
-  { icon: '✍️', label: 'Ghostwriting' },
-  { icon: '🛡️', label: 'Autoridad Digital' },
-  { icon: '📈', label: 'Presencia Digital' },
-  { icon: '🏷️', label: 'Marca' },
+const baseRow2 = [
   { icon: '🔍', label: 'SEO Técnico' },
   { icon: '✍️', label: 'Ghostwriting' },
   { icon: '🛡️', label: 'Autoridad Digital' },
@@ -32,23 +23,21 @@ function Tag({ icon, label }: { icon: string; label: string }) {
 }
 
 export default function MarqueeTags() {
-  const row1Double = [...row1, ...row1]
-  const row2Double = [...row2, ...row2]
+  const row1Items = [...baseRow1, ...baseRow1, ...baseRow1, ...baseRow1, ...baseRow1, ...baseRow1]
+  const row2Items = [...baseRow2, ...baseRow2, ...baseRow2, ...baseRow2, ...baseRow2, ...baseRow2]
 
   return (
     <div className="bg-[#ECEBE4] py-10 md:py-14 overflow-hidden">
-      {/* Row 1 - left to right */}
       <div className="flex overflow-hidden mb-3">
         <div className="marquee-track">
-          {row1Double.map((tag, i) => (
+          {row1Items.map((tag, i) => (
             <Tag key={i} {...tag} />
           ))}
         </div>
       </div>
-      {/* Row 2 - right to left */}
       <div className="flex overflow-hidden">
         <div className="marquee-track-reverse">
-          {row2Double.map((tag, i) => (
+          {row2Items.map((tag, i) => (
             <Tag key={i} {...tag} />
           ))}
         </div>
