@@ -62,7 +62,7 @@ export default function ContactoPage() {
               </div>
 
               <a
-                href="https://www.linkedin.com/in/alisa-zinchenko/"
+                href="https://www.linkedin.com/in/alisazin/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#5B58D6] hover:bg-[#4a47c0] text-white px-6 py-3 rounded-full text-sm font-medium transition-colors"

@@ -39,7 +39,7 @@ export default function SchemaOrg() {
         name: 'Alisa Zinchenko',
         url: 'https://alisazinko.com',
         image: 'https://alisazinko.com/alisa-color.png',
-        sameAs: ['https://www.linkedin.com/in/alisa-zinchenko/'],
+        sameAs: ['https://www.linkedin.com/in/alisazin/'],
         jobTitle: 'Consultora de Presencia Digital B2B',
         description:
           'Especialista en presencia digital B2B para despachos de abogados, ingenierías y empresas técnicas en España. Web profesional, LinkedIn corporativo y SEO.',

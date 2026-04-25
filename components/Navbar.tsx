@@ -22,7 +22,7 @@ export default function Navbar() {
           </Link>
           <span className="text-gray-300">|</span>
           <a
-            href="https://www.linkedin.com/in/alisa-zinchenko/"
+            href="https://www.linkedin.com/in/alisazin/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-8 h-8 rounded border border-gray-200 hover:border-gray-400 transition-colors"
