@@ -11,7 +11,7 @@ export default function Newsletter() {
           sobre marca personal y contenido B2B.
         </p>
         <a
-          href="https://substack.com/@alisazinko"
+          href="https://sinprompt.beehiiv.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-[#5B58D6] hover:bg-[#4a47c0] text-white px-8 py-3 rounded-full text-sm font-medium transition-colors"
