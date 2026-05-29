@@ -10,15 +10,21 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-6 h-full grid grid-cols-1 md:grid-cols-[42%_1fr] gap-10 items-center py-10">
         {/* Left: text */}
         <div className="space-y-6">
+          <p className="text-[0.6875rem] tracking-[0.15em] uppercase text-gray-400 font-medium">
+            Fractional Chief of Staff · B2B
+          </p>
           <h1 className="font-serif text-[clamp(3rem,5.5vw,4.75rem)] leading-[1.02] tracking-[-0.03em] text-[#5B58D6]">
-            Presencia digital para empresas B2B que no tienen tiempo de{' '}
-            <em className="not-italic italic">gestionarla.</em>
+            Comunicación. Operaciones.{' '}
+            <em className="not-italic italic">Ejecución.</em>
           </h1>
           <p className="text-[1.0625rem] text-gray-700 leading-[1.7] max-w-md">
-            Trabajo con despachos de abogados, ingenierías y directivos que dominan su sector
-            pero no aparecen online. Diseño la web con su identidad visual, gestiono su
-            LinkedIn corporativo y me encargo del SEO para que sus clientes potenciales los
-            encuentren antes que a la competencia.
+            Hay directivos que saben exactamente lo que quieren pero no tienen quien lo ejecute.
+            Llevo mas de 10 anos en operaciones, comunicacion y coordinacion corporativa.
+            Trabajo como soporte ejecutivo externo: me meto dentro del negocio, ordeno lo que
+            no funciona y hago que las cosas pasen.
+          </p>
+          <p className="text-sm text-gray-500 leading-[1.6]">
+            Comunicacion B2B · Coordinacion ejecutiva · Research y analisis
           </p>
           <div className="flex items-center gap-4 pt-2">
             <Link

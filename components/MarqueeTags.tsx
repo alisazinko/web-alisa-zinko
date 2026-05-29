@@ -1,16 +1,16 @@
 const baseRow1 = [
-  { icon: '🌐', label: 'Web Profesional' },
-  { icon: '🎨', label: 'Identidad Visual' },
-  { icon: '💼', label: 'LinkedIn Corporativo' },
-  { icon: '📝', label: 'Contenido B2B' },
+  { icon: '⚙️', label: 'Coordinacion Ejecutiva' },
+  { icon: '📋', label: 'Gestion de Operaciones' },
+  { icon: '💼', label: 'Comunicacion B2B' },
+  { icon: '🔍', label: 'Research de Mercado' },
 ]
 
 const baseRow2 = [
-  { icon: '🔍', label: 'SEO Técnico' },
-  { icon: '✍️', label: 'Ghostwriting' },
-  { icon: '🛡️', label: 'Autoridad Digital' },
-  { icon: '📈', label: 'Presencia Digital' },
-  { icon: '🏷️', label: 'Marca' },
+  { icon: '📊', label: 'Analisis Estrategico' },
+  { icon: '✍️', label: 'Contenido Corporativo' },
+  { icon: '🎯', label: 'Fractional Chief of Staff' },
+  { icon: '🌐', label: 'Presencia Corporativa' },
+  { icon: '📈', label: 'OKRs y Seguimiento' },
 ]
 
 function Tag({ icon, label }: { icon: string; label: string }) {

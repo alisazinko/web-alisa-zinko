@@ -3,23 +3,23 @@ import Link from 'next/link'
 const steps = [
   {
     number: '1',
-    title: 'Auditoría',
-    description: 'Reviso tu presencia digital actual: web, LinkedIn y posicionamiento en buscadores. Identifico los huecos y defino qué tiene más impacto para tu sector.',
+    title: 'Diagnostico',
+    description: 'Entiendo el negocio, los cuellos de botella y las prioridades reales. Sin filtros, sin presentaciones. Una conversacion directa para saber donde duele y que tiene mas impacto.',
   },
   {
     number: '2',
-    title: 'Arquitectura',
-    description: 'Diseño la estructura: identidad visual, mensajes clave, arquitectura web y plan de contenidos para LinkedIn. Todo adaptado a despachos, ingenierías o perfil directivo.',
+    title: 'Estructura',
+    description: 'Ordeno lo que no funciona. Priorizo, establezco procesos y defino quien hace que. El objetivo es claridad operativa antes de empezar a ejecutar.',
   },
   {
     number: '3',
-    title: 'Despliegue',
-    description: 'Lanzo la web, activo el LinkedIn corporativo o profesional y arranco la publicación semanal. En 4 a 6 semanas tienes presencia digital operativa y visible.',
+    title: 'Ejecucion',
+    description: 'Me encargo de que las cosas pasen. Coordino equipos, gestiono proyectos, comunico hacia dentro y hacia fuera. Reporte directo al directivo sin intermediarios.',
   },
   {
     number: '4',
-    title: 'Optimización',
-    description: 'Cada mes reviso métricas reales: tráfico, alcance en LinkedIn y contactos generados. Ajusto el contenido y la estrategia para que el posicionamiento mejore con el tiempo.',
+    title: 'Seguimiento',
+    description: 'Mido lo que importa, ajusto lo que no funciona y te mantengo informado. Cada semana sabes exactamente en que punto esta cada iniciativa.',
   },
 ]
 
@@ -30,15 +30,14 @@ export default function Systems() {
         {/* Left: text */}
         <div className="space-y-6">
           <h2 className="font-serif text-[clamp(1.9rem,3.5vw,2.75rem)] leading-[1.1] tracking-[-0.02em]">
-            Posicionamiento digital para empresas B2B, sin departamento de marketing.
+            Soporte ejecutivo externo para directivos que necesitan que las cosas pasen.
           </h2>
           <p className="text-[1.0625rem] text-gray-600 leading-[1.7]">
-            Soy especialista independiente en presencia digital para despachos de abogados,
-            ingenierías y empresas técnicas. Trabajo con directivos y CEOs que no tienen equipo
-            de marketing interno: diseño la web con identidad visual, gestiono la presencia
-            digital completa mes a mes o me encargo del LinkedIn profesional del directivo.
-            El objetivo siempre es el mismo: que tus clientes potenciales te encuentren, te
-            entiendan y confíen en ti antes de llamarte.
+            Llevo mas de 10 anos trabajando en operaciones, comunicacion y coordinacion corporativa
+            en entornos B2B. Hoy trabajo como Fractional Chief of Staff para founders y directivos
+            en Espana que tienen vision pero no tienen quién ejecute. Me meto dentro del negocio,
+            identifico lo que frena el avance y me encargo de que cada decision se convierta en
+            resultado concreto.
           </p>
           <div className="flex items-center gap-4 flex-wrap">
             <Link

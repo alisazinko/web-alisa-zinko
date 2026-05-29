@@ -5,79 +5,80 @@ import Link from 'next/link'
 
 const services = [
   {
-    id: 'web-marca',
-    badge: 'Proyecto único',
+    id: 'coordinacion-ejecutiva',
+    badge: 'Fractional CoS',
     badgeColor: 'text-gray-500',
-    title: 'Web + Marca',
-    subtitle: 'Tu presencia digital desde cero, entregada y lista',
+    title: 'Coordinacion Ejecutiva',
+    subtitle: 'Soporte operativo externo para que las cosas pasen',
     items: [
-      'Logo e identidad visual',
-      'Web profesional (hasta 5 páginas)',
-      'Tono de comunicación y mensajes clave',
-      'Dominio configurado y entregado',
+      'Coordinacion de proyectos y equipos',
+      'Gestion de agenda y prioridades ejecutivas',
+      'Seguimiento de OKRs y entregables',
+      'Comunicacion interdepartamental',
+      'Implementacion de procesos internos',
     ],
-    note: 'Para empresas que necesitan base antes de comprometerse a mensual. Puerta de entrada natural al retainer.',
+    note: 'Para founders y directivos que necesitan estructura sin contratar equipo fijo.',
     featured: false,
     modal: {
-      title: 'Web + Marca',
-      subtitle: 'Tu presencia digital desde cero, en tres semanas',
+      title: 'Coordinacion Ejecutiva',
+      subtitle: 'El puente entre lo que decides y lo que ocurre.',
       body: [
-        'Logo, web y mensaje. Todo lo que necesitas para que un cliente potencial llegue a ti y entienda en 10 segundos qué haces y por qué tú.',
-        'Entrego web funcionando con tu dominio, identidad visual coherente y los textos que convierten visita en contacto. Sin reuniones interminables. Sin revisiones eternas.',
-      ],
-      cta: 'Pedir presupuesto',
-      ctaHref: '/contacto',
-    },
-  },
-  {
-    id: 'presencia-digital',
-    badge: 'Más contratado',
-    badgeColor: 'text-gray-500',
-    title: 'Presencia Digital',
-    subtitle: 'Tu empresa con presencia activa, sin gestionarla tú',
-    items: [
-      'Web mantenida y actualizada',
-      'SEO técnico + 1 artículo de blog/mes',
-      'LinkedIn corporativo (2-3 posts/semana)',
-      'Estrategia de marca (mes 1)',
-      '1 llamada mensual de dirección',
-    ],
-    note: 'B2B de 5-50 personas sin departamento de marketing. Perfil: despachos, ingenierías, empresas técnicas.',
-    featured: false,
-    modal: {
-      title: 'Presencia Digital',
-      subtitle: 'Tu empresa activa online. Sin que tengas que gestionarlo.',
-      body: [
-        'Web actualizada, posicionamiento en Google y LinkedIn corporativo funcionando cada semana. Tú te dedicas a tu negocio. Yo me encargo de que te encuentren y te recuerden.',
-        'Cada mes: una llamada para marcar dirección, un artículo de blog publicado, posts en LinkedIn con tu voz, y tu web siempre al día. Sin briefings eternos, sin aprobar cada pieza desde cero.',
+        'Muchos directivos tienen claridad sobre el rumbo pero no tienen quién ejecute, coordine y haga seguimiento. Yo actuo como tu Chief of Staff externo: entro dentro del negocio, ordeno lo que no funciona y me aseguro de que cada decision se traduzca en accion.',
+        'No es consultoria. Es ejecucion real. Coordino equipos, gestiono proyectos, implemento procesos y te reporto directamente. Sin friccion, sin politica interna, sin coste fijo de contratacion.',
       ],
       cta: 'Hablamos',
       ctaHref: '/contacto',
     },
   },
   {
-    id: 'linkedin-profesional',
-    badge: 'Retainer mensual',
+    id: 'comunicacion-b2b',
+    badge: 'Mas contratado',
     badgeColor: 'text-gray-500',
-    title: 'LinkedIn Profesional',
-    subtitle: 'Tu conocimiento publicado. Sin que escribas una sola línea',
+    title: 'Comunicacion B2B',
+    subtitle: 'Presencia corporativa que genera confianza y negocio',
     items: [
-      'Optimización de perfil personal (mes 1)',
-      '2-3 posts semanales con tu voz',
-      'Página de empresa coordinada (opcional)',
-      'Llamada mensual de 30 min para extraer ideas',
-      'Tú validas, yo publico',
+      'Web profesional con identidad visual',
+      'LinkedIn corporativo gestionado',
+      'Contenido B2B (articulos, posts, cases)',
+      'SEO tecnico y posicionamiento',
+      'Estrategia de mensaje y tono de marca',
     ],
-    note: 'Abogados, ingenieros, CEOs y directivos que tienen el conocimiento pero no el tiempo ni las ganas de escribir.',
+    note: 'Empresas B2B de 5-50 personas sin departamento de marketing interno.',
     featured: false,
     modal: {
-      title: 'LinkedIn Profesional',
-      subtitle: 'Sabes más que nadie en tu sector. El problema es que nadie lo sabe.',
+      title: 'Comunicacion B2B',
+      subtitle: 'Tu empresa comunica con la autoridad que merece.',
       body: [
-        'Un abogado, un ingeniero o un director general tiene el conocimiento que sus clientes buscan. Pero LinkedIn da pereza, no hay tiempo, y no se sabe por dónde empezar.',
-        'Yo te extraigo las ideas en una llamada de 30 minutos al mes. Las escribo con tu voz. Tú validas con un mensaje de voz o un par de comentarios. Y tu perfil publica cada semana sin que hayas escrito una sola línea.',
+        'Una empresa tecnica o profesional que no comunica bien pierde negocio frente a competidores mas visibles pero menos capaces. Disenyo y gestiono la presencia corporativa para que tus clientes potenciales te encuentren, te entiendan y confien en ti antes de llamarte.',
+        'Web con identidad visual, LinkedIn activo, contenido que demuestra expertise y SEO que posiciona. Todo coordinado, todo con tu voz, todo sin que tengas que gestionarlo tu.',
       ],
-      cta: 'Quiero aparecer en LinkedIn',
+      cta: 'Pedir presupuesto',
+      ctaHref: '/contacto',
+    },
+  },
+  {
+    id: 'research-analisis',
+    badge: 'Proyecto',
+    badgeColor: 'text-gray-500',
+    title: 'Research y Analisis',
+    subtitle: 'Inteligencia de negocio para tomar mejores decisiones',
+    items: [
+      'Analisis de competencia y benchmarking',
+      'Investigacion de mercado y tendencias',
+      'Due diligence comercial',
+      'Informes ejecutivos accionables',
+      'Identificacion de oportunidades',
+    ],
+    note: 'Para decisiones estrategicas que necesitan datos reales, no intuicion.',
+    featured: false,
+    modal: {
+      title: 'Research y Analisis',
+      subtitle: 'Informacion que sirve para decidir, no para archivar.',
+      body: [
+        'Antes de lanzar un servicio, entrar en un mercado o tomar una decision estrategica, necesitas datos reales. Investigo competidores, analizo tendencias de sector, identifico oportunidades y te lo entrego en un informe ejecutivo que puedes leer en 20 minutos y usar el mismo dia.',
+        'No es un estudio academico. Es inteligencia practica adaptada a tu decision concreta: expansion geografica, nuevo servicio, alianza comercial o reposicionamiento de marca.',
+      ],
+      cta: 'Solicitar propuesta',
       ctaHref: '/contacto',
     },
   },
@@ -93,13 +94,12 @@ export default function Services() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="font-serif text-[clamp(1.9rem,3.5vw,2.75rem)] leading-[1.1] tracking-[-0.02em] mb-4">
-            Lo que hago por tu empresa
+            Como puedo ayudarte
           </h2>
           <p className="text-[1.0625rem] text-gray-600 max-w-xl mx-auto leading-[1.7]">
-            Tres servicios de presencia digital para empresas B2B en España: web profesional con
-            identidad visual desde cero, retainer de presencia digital completa con SEO y LinkedIn
-            corporativo, y ghostwriting de LinkedIn para directivos y profesionales que quieren
-            publicar sin escribir.
+            Directivos y founders que operan en Espana y necesitan estructura, comunicacion y
+            analisis sin contratar equipo. Trabajo como soporte ejecutivo externo en tres areas:
+            coordinacion operativa, comunicacion B2B y research de negocio.
           </p>
         </div>
 

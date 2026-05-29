@@ -8,14 +8,14 @@ export const metadata: Metadata = {
     icon: '/favicon-clean.png',
     apple: '/favicon-clean.png',
   },
-  title: 'Alisa Zinchenko | Web, Marca y LinkedIn Corporativo para Empresas B2B',
-  description: 'Presencia digital B2B para despachos, ingenierías y empresas técnicas en España. Web profesional con identidad visual, SEO y LinkedIn corporativo gestionado.',
+  title: 'Alisa Zinchenko | Fractional Chief of Staff · B2B',
+  description: 'Soporte ejecutivo externo para directivos y founders en España. Coordinacion de operaciones, comunicacion B2B y research de mercado. Hago que las cosas pasen.',
   alternates: {
     canonical: 'https://alisazinko.com',
   },
   openGraph: {
-    title: 'Alisa Zinchenko | Presencia Digital B2B para Empresas en España',
-    description: 'Web profesional, SEO y LinkedIn corporativo para despachos, ingenierías y directivos.',
+    title: 'Alisa Zinchenko | Fractional Chief of Staff · B2B',
+    description: 'Soporte ejecutivo externo para directivos y founders en España. Coordinacion, comunicacion B2B y research.',
     url: 'https://alisazinko.com',
     siteName: 'Alisa Zinchenko',
     locale: 'es_ES',

@@ -26,7 +26,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <p className="text-[0.6875rem] tracking-[0.1em] text-gray-500 uppercase">
-            Web Profesional - Marca - LinkedIn Corporativo - SEO - Ghostwriting
+            Coordinacion Ejecutiva - Comunicacion B2B - Research y Analisis - Fractional CoS
           </p>
         </div>
 
