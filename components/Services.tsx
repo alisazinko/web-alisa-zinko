@@ -56,32 +56,6 @@ const services = [
       ctaHref: '/contacto',
     },
   },
-  {
-    id: 'research-analisis',
-    badge: 'Proyecto',
-    badgeColor: 'text-gray-500',
-    title: 'Research y Analisis',
-    subtitle: 'Inteligencia de negocio para tomar mejores decisiones',
-    items: [
-      'Analisis de competencia y benchmarking',
-      'Investigacion de mercado y tendencias',
-      'Due diligence comercial',
-      'Informes ejecutivos accionables',
-      'Identificacion de oportunidades',
-    ],
-    note: 'Para decisiones estrategicas que necesitan datos reales, no intuicion.',
-    featured: false,
-    modal: {
-      title: 'Research y Analisis',
-      subtitle: 'Informacion que sirve para decidir, no para archivar.',
-      body: [
-        'Antes de lanzar un servicio, entrar en un mercado o tomar una decision estrategica, necesitas datos reales. Investigo competidores, analizo tendencias de sector, identifico oportunidades y te lo entrego en un informe ejecutivo que puedes leer en 20 minutos y usar el mismo dia.',
-        'No es un estudio academico. Es inteligencia practica adaptada a tu decision concreta: expansion geografica, nuevo servicio, alianza comercial o reposicionamiento de marca.',
-      ],
-      cta: 'Solicitar propuesta',
-      ctaHref: '/contacto',
-    },
-  },
 ]
 
 export default function Services() {
@@ -104,7 +78,7 @@ export default function Services() {
         </div>
 
         {/* 3-column cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch max-w-3xl mx-auto">
           {services.map((service) => (
             <div
               key={service.id}
